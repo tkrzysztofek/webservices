@@ -5,14 +5,16 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@AllArgsConstructor
-@NoArgsConstructor
+import java.util.List;
+
 @Getter
 @Setter
-public class CatalogItem {
+@AllArgsConstructor
+@NoArgsConstructor
+public class UserRating {
 
-    private String name;
-    private String desc;
-    private int rating;
+    private List<Rating> userRating;
+
+
 
 }
