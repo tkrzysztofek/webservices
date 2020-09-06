@@ -28,13 +28,13 @@ public class MovieCatalogResource {
     @RequestMapping("/{userId}")
     public List<CatalogItem> getCatalog(@PathVariable("userId") String userId) {
 
-        UserRating ratings = restTemplate.getForObject("http://localhost:8083/ratingsdata/users" + userId, UserRating.class);
-
-//        List<Rating> ratings = Arrays.asList(
+        UserRating userRating = restTemplate.getForObject("http://localhost:8083/ratingsdata/users" + userId, UserRating.class);
+        System.out.println(userRating.getUserRating());
+//        List<Rating> userRating = Arrays.asList(
 //                new Rating("1213", 4),
 //                new Rating("2244", 1));
 
-        return ratings.getUserRating().stream()
+        return userRating.getUserRating().stream()
                 .map(rating -> {
                     Movie movie = restTemplate.getForObject("http://localhost:8082/movies/" + rating.getMovieId(), Movie.class);
 
@@ -43,7 +43,6 @@ public class MovieCatalogResource {
                 .collect(Collectors.toList());
     }
 }
-
 
 
 //                    Movie movie = webClientBuilder.build()
