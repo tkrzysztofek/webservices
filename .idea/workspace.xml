@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3391251-f4be-4ebd-a766-6cd3cb9407fd" name="Default Changelist" comment="" />
+    <list default="true" id="f3391251-f4be-4ebd-a766-6cd3cb9407fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratings-data-service/src/main/java/io/javabrains/ratingsdataservice/resources/RatingResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratings-data-service/src/main/java/io/javabrains/ratingsdataservice/resources/RatingResource.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +24,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/movie-catalog-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/discovery-server/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SqlCodeAssistantSettings">
@@ -41,6 +57,7 @@
       <updated>1588593588701</updated>
       <workItem from="1588593589897" duration="80000" />
       <workItem from="1598361576325" duration="15000" />
+      <workItem from="1599415568159" duration="238000" />
     </task>
     <servers />
   </component>
@@ -48,9 +65,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1180" y="273" key="FileChooserDialogImpl" timestamp="1598361590483">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1599415806309">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="273" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1598361590483" />
+    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/1920.113.1440.860@0.0.1920.1040" timestamp="1599415806309" />
   </component>
 </project>
